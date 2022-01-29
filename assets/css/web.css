@@ -1,0 +1,1415 @@
+body {
+    
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #0e1313, #4737d2) 
+  }
+   
+  ::-webkit-scrollbar-thumb{
+    color: blue;
+    border-radius: 2px;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(58, 25, 179, 0.822); 
+  }
+
+  /* main-section */
+main{
+  max-width: 1400px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 0;
+  color: white;
+  margin-top: 50px;
+  background-color: #1a1a1a;
+} 
+
+/* web-front */
+
+.webfront{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background-position-y: 50%;
+  background-position-x: 1%;
+  width: 100%;
+  height: 1400px;
+  display: block;
+  background-image: url("../images/2.WEB-DEVELOPMENT/web\ Rocket.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 350px 650px;
+  color: white;
+}
+
+
+.webfront h1{
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.466);
+  font-weight: 900;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 10px;
+  font-size: 57px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.webfront h2{
+  top: 13%;
+  position: absolute;
+  text-align: left;
+  font-size: 35px;
+  left: 1%;
+  z-index: 2;
+  width: 300px;
+  color: rgb(255, 255, 255);
+}
+
+.webfront img{
+  width: 80%;
+  float: right;
+  height: 40%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  top: 50px;
+  
+}
+
+.webfront p{
+  float: right;
+  display: block;
+  position: relative;
+  margin-top: 45%;
+  margin-right: 20px;
+  width: 280px;
+  padding-left: 7px;
+  font-size: 25px;
+  border-left: 8px solid #8D5FFF;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+.webfront #breef{
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  bottom: 10%;
+  border: none;
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  
+}
+
+
+@media only screen and (max-width:1000px){
+  
+}
+
+@media only screen and (min-width:1200px){
+
+  .webfront{
+    height: 1500px;
+    background-position-y: 65%;
+    background-size: 400px 700px;
+  }
+ 
+  .webfront h1{
+    font-size: 61px;
+  }
+
+  .webfront h2{
+    font-size: 61px;
+  }
+
+
+
+  .webfront img{
+    height: 700px;
+    top: 45px;
+  }
+
+  .webfront #breef{
+    position: absolute;
+    bottom: 10%;
+  }
+}
+
+
+/* services section */
+
+.services{
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  display: block;
+  flex-direction: column;
+  position: relative;
+}
+
+.services header{
+  font-size: 76px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+
+}
+
+.services section{
+  display: flow-root;
+  color: black;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  height: 350px;
+  background: #767676;
+}
+
+.services section img{
+  float: left;
+  width: 40%;
+  margin-left: 20px;
+  height: 100%;
+  
+
+}
+
+section h2{
+  text-align: right;
+  margin-right: 10%;
+  padding-top: 20px;
+  font-size: 43px;
+}
+
+
+.services button {
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #5e5452;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 50px;
+  float: right;
+  margin-right: 25%;
+  /* margin-left: 180px; */
+  overflow: hidden;
+  position: relative;
+  transition: 0.6s ease;
+  transform: perspective(1000);
+
+}
+
+.services button a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+}
+
+.services button a:after {
+  content: '\2192';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.services button:hover a {
+  padding-right: 25px;
+  
+}
+
+.services button:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+.services button:hover{
+  background: linear-gradient(to right, pink, rgb(223, 17, 137)); 
+}
+
+.services #one{
+  background: transparent;
+}
+
+#one img{
+  float: right;
+}
+
+#one h2{
+  text-align: left;
+  margin-left: 10%;
+  color: white;
+  padding-top: 20px;
+}
+
+#one button:hover{
+  background: linear-gradient(to right, rgba(106, 68, 177, 0.308), rgb(81, 8, 199)); 
+
+}
+
+
+#two h2{  
+  margin-right: 5%;
+  text-align: right;
+  padding-top: 0px;
+}
+
+#two button{
+  margin-right: 10%;
+}
+
+#two button:hover{
+  background: linear-gradient(to right, rgb(177, 118, 63), rgb(255, 107, 70)); 
+}
+
+
+
+#three button{
+  margin-right: 22%;
+}
+
+#three button:hover{
+  background: linear-gradient(to right, rgba(20, 3, 6, 0.329), rgba(161, 161, 161, 0.932));
+
+}
+
+.services #four img{
+  float: right;
+}
+
+.services #four{
+  background: transparent;
+}
+
+#four h2{
+  text-align: left;
+  margin-left: 5%;
+  color: white;
+  padding-top: 40px;
+}
+
+#four button:hover{
+  background: linear-gradient(to right, rgba(206, 169, 49, 0.699), rgba(255, 255, 0, 0.897));
+  
+}
+
+#four button:hover>a{
+color: black;
+font-weight: 500;
+
+}
+
+
+#six h2{
+  margin-right: 4%;
+}
+
+#six button{
+  margin-right: 15%;
+  margin-top: 2%;
+}
+
+#six button:hover{
+  background: linear-gradient(to left, rgba(230, 65, 0, 0.904), rgba(117, 188, 221, 0.534));
+
+}
+
+.services #seven img{
+  float: right;
+}
+
+.services #seven{
+  background: transparent;
+}
+
+#seven h2{
+  text-align: left;
+  margin-left: 10%;
+  color: white;
+  padding-top: 20px;
+}
+
+
+.services #seven button{
+  margin-top: -15px;
+}
+
+/* web development added new section */
+
+.newdiv{
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin: 40px 0px;
+  color: black;
+}
+
+.newdiv img{
+  width: 100%;
+  height: 100%;
+}
+
+.newdiv p{
+  font-size: 18px;
+  display: block;
+  position: absolute;
+  width: 21%;
+  top: 20%;
+  text-align: center;
+
+}
+
+.newdiv p span{
+  font-size: 57px;
+  line-height: 40px;
+
+}
+
+.newdiv #infographic1{
+  left: 7%;
+}
+
+.newdiv #infographic2{
+  left: 40%;
+}
+
+
+.newdiv #infographic3{
+  left: 72%;
+}
+
+
+
+/* <!-- how website helps buiseness --> */
+
+.howbuiseness{
+  position: relative;
+  width: 100%;
+  
+}
+
+.howbuiseness header{
+  font-size: 45px;
+  text-align: center;
+  margin: 0px 50px;
+} 
+
+.howbuiseness .howbuiseness-scroll{
+  width: 90%;
+  overflow: hidden;
+  margin: 0px auto;
+  
+}
+
+.howbuisenessitem{
+  display: flex;
+  width: 400%;
+  transition: 0.8s ease;
+  perspective: 1000;
+}
+
+.howbuisenessitem .owl{
+  flex-basis: 100%;
+  display: flex;
+}
+
+.howright,
+.howleft{
+  position: absolute;
+  color: white;
+  padding: 10px;
+  font-size: 35px;
+  top: 50%;
+  transform: translateY(-25%);
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.howright:hover,
+.howleft:hover{
+  background-color: blue;
+}
+
+.howleft{
+  left: 2%;
+}
+
+.howright{
+  right: 2%;
+}
+
+
+.howbuisenessitem .content{
+  display: block;
+  margin: 5%;
+  min-height: 220px;
+  width: 30%;
+  background-color: #0A0A0A;
+  box-shadow: 10px 10px #8D5FFF;
+  border-radius: 50px;
+  position: relative;
+  justify-content: center;
+}
+
+.howbuisenessitem .content-img{
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  padding: 5%;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.howbuisenessitem .content-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.howbuisenessitem .content h3{
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 10%;
+  color: white;
+  text-align:center;
+  
+}
+
+
+
+/* thing to consider before going live section */
+
+/* why choose us section card */
+
+
+.why-us-card{
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+.why-us-card header{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 51px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.why-us-card .card-section{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.why-us-card #card{
+  position: relative;
+  width: 27%;
+  min-width: 277px;
+  height: 370px;
+  margin-bottom: 50px;
+  color: white;
+  box-shadow: 10px 10px #FFDD03;
+  background-color: #0A0A0A;
+}
+
+.why-us-card #card img{
+  position: absolute;
+  width: 35%;
+  top: 2%;
+  height: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.why-us-card #card h1{
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+  height: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.why-us-card #card p{
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 32%;
+}
+
+
+
+
+/* web deelopment section */
+.development{
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-image: url('../images/2.WEB-DEVELOPMENT/background.png');
+  background-size: 100% 100%;
+}
+
+.development header{
+  font-size: 57px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.imgicon{
+  width: 100%;
+  height: 800px;
+  position: relative;
+
+
+}
+
+.imgicon img{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.imgicon section{
+  width: 10%;
+  height: 9%;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  padding: 2px;
+  text-align: center;
+
+}
+
+.imgicon section#step-1{
+  top: 9.5%;
+  left: 38%;
+}
+
+.imgicon section span{
+  display: block;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 57px;
+}
+
+.imgicon section header{
+  font-size: 24px;
+  margin-top: -5px;
+  width: 100%;
+
+}
+
+.imgicon section#step-2{
+  top: 27%;
+  left: 50%;
+}
+
+
+.imgicon section#step-3{
+  top: 41%;
+  left: 38%;
+}
+
+.imgicon section#step-4{
+  top: 56%;
+  left: 50%;
+}
+
+.imgicon section#step-5{
+  top: 71%;
+  left: 38%;
+}
+
+.imgicon p{
+  display: block;
+  width: 20%;
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+}
+
+.imgicon p#step-1-para{
+  top: 9%;
+  left: 5%;
+  color: #387CC3;
+}
+
+.imgicon p#step-2-para{
+  top: 24%;
+  left: 75%;
+  color: #D63086;
+}
+
+
+.imgicon p#step-3-para{
+  top: 41%;
+  left: 5%;
+  color: #F67213;
+}
+
+
+.imgicon p#step-4-para{
+  top: 57%;
+  left: 75%;
+  color: #6A4291;
+}
+
+
+.imgicon p#step-5-para{
+  top: 72%;
+  left: 5%;
+  color: #2FD67F;
+}
+
+
+
+/* web custom banner section */
+
+.webbanner{
+  margin: 10px 0px;
+  width: 100%;
+  background-color: #01C3A9;
+  height: 400px;
+  position: relative;
+}
+
+.webbanner img{
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.webbanner p{
+  display: block;
+  position: absolute;
+  width: 50%;
+  left: 3%;
+  font-size: 57px;
+  line-height: 60px;
+  top: 0;
+}
+
+.webbanner button{
+  position: absolute;
+  bottom: 5%;
+  padding: 0;
+  border-radius: 35px;
+  overflow: hidden;
+  border: none;
+  left: 15%;
+}
+
+.webbanner button a{
+  display: block;
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 20px 20px;
+  background-color: orange;
+}
+
+.webbanner button a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(to top, purple, rgb(55, 235, 235)); */
+  background-color: #939597;
+  z-index: -1;
+  transition: 0.4s ease;
+  transform: scaleY(0);
+
+}
+
+.webbanner button a:hover::after{
+  transform: scaleY(1);
+}
+
+/* cs language section */
+
+.languages{
+  width: 100%;
+}
+
+.languages header{
+  font-size: 57px;
+  text-align: center;
+  text-shadow: 2px 2px lightblue;
+
+}
+
+
+.languages img{
+  width: 150px;
+  height: 100px;
+  margin: 50px;
+}
+
+
+/* theme section */
+
+
+/* why choose us section  */
+
+.whychooseusasdigital{
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  
+}
+
+.whychooseusasdigital header{
+  font-size: 51px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+} 
+
+.whychooseusasdigital .whybuiseness-scroll{
+  width: 90%;
+  overflow: hidden;
+  margin: 0px auto;
+  
+}
+
+.whybuisenessitem{
+  display: flex;
+  width: 400%;
+  transition: 0.4s;
+  perspective: 1000;
+}
+
+.whybuisenessitem .owl-2{
+  flex-basis: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.whyright,
+.whyleft{
+  position: absolute;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 50%;
+  top: 50%;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.whyright:hover,
+.whyleft:hover{
+  background-color: black;
+}
+
+.whyleft{
+  left: 0;
+}
+
+.whyright{
+  right: 0;
+}
+
+
+.whybuisenessitem img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* banner section */
+.portfolio-section{
+  width: 100%;
+  height: 450px;
+  margin-top: 100px;
+  position: relative;
+  background-color: white;
+  color: black;
+}
+
+.portfolio-section header{
+  width: 100%;
+  display: block;
+  font-size: 41px;
+  text-decoration: underline;
+  height: 45px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.portfolio-section .mySlides1{
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.portfolio-section .mySlides1 img{
+  width: 35%;
+  height: 80%;
+  position: absolute;
+  box-shadow: 1px 1px 4px black;
+  top: 10%;
+  left: 4%;
+}
+
+.portfolio-section .mySlides1 .text{
+  position: absolute;
+  width: 50%;
+  left: 44%;
+  color: black;
+  font-size: 38px;
+}
+
+.portfolio-section .mySlides1 p{
+  position: absolute;
+  width: 50%;
+  left: 45%;
+  top: 20%;
+  color: black;
+  font-size: 16px;
+}
+
+.portfolio-section .mySlides1 .numbertext{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.portfolio-section .mySlides1 button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  padding: 10px 1px;
+  background-color: transparent;
+  border: 4px solid black;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+
+.portfolio-section .mySlides1 button:hover{
+  background-color: black;
+  color: white;
+}
+
+.portfolio-section .mySlides1 button:hover>a{
+  color: white;
+}
+
+
+.portfolio-section .mySlides1 button a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.4s ease;
+}
+
+.portfolio-section .mySlides1 button a:hover{
+  color: white;
+}
+
+
+.portfolio-section .prevs , .portfolio-section .nexts{
+  cursor: pointer;
+  position: absolute;
+  top: 82%;
+  width: auto;
+  transform: translateY(-50%);
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+
+}
+
+.portfolio-section .mySlides1 button.portfolio-contact{
+  left: 70%;
+}
+
+.portfolio-section .prevs {
+  left: 65%;
+}
+
+
+.portfolio-section .nexts{
+  right: 26%;
+}
+
+.portfolio-section .prevs:hover, .portfolio-section .nexts:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} 
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+/* experties-section */
+
+.expeties{
+  display: block;
+  width: 100%;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.842);
+}
+
+.expeties header{
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 0px;
+
+}
+
+.expeties p{
+  color: #706b6a;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: serif;
+  padding-right: 10%;
+}
+
+.expeties #headm{
+  padding-left: 5%;
+}
+
+.expeties .bar{
+  list-style: none;
+  background-color: #E7EDFD;
+  color: black;
+  height: 70px;
+  display: flex;
+  overflow: hidden;
+}
+
+.expeties .bar li{
+  display: inline-flex;
+  width: 18%;
+  height: 100%;
+}
+
+.expeties .bar li:first-child{
+  border-left: 1px solid black;
+}
+
+.bar li a{
+  
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  border-right: 1px solid black;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+/* 
+
+.bar li a::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 2px;
+  background-color: black;
+  transition: 0.5s ease;
+  
+}
+
+.bar li a:hover::after{
+  width: 100%;
+} */
+
+.bar li a.pactive, .bar li a:hover{
+  background-color: #7256F2;
+  color: white;
+}
+
+.webexperties{
+  display: block;
+  width: 100%;
+  height: 350px;
+  margin-top: -20px;
+  position: relative;
+  background-color: #161616;
+  margin-bottom: 100px;
+}
+
+.webexperties p{
+  position: absolute;
+  color: white;
+  width: 70%;
+  left: 5%;
+  top: 0;
+  
+  
+}
+
+.webexperties img{
+  position: absolute;
+  color: white;
+  width: 20%;
+  right: 2%;
+  top: 2%;
+  
+  
+}
+
+
+
+.webexperties #backend{
+  animation-name: fade;
+  opacity: 0;
+}
+
+.webexperties #application, #frontend, #cms{
+  opacity: 0;
+}
+
+
+/*  why brand choose us section */
+
+.chooseus{
+  width: 100%; 
+  margin-bottom: 0px;
+  margin-top: 100px;
+  padding-bottom: 0;
+  display: block;
+}
+
+.chooseus h1{
+  text-align: center;
+  font-size: 51px;
+}
+
+.chooseus .chooseus-items{
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.chooseus .chooseus-items section{
+  display: block;
+  position: relative;
+  width: 260px;
+  height: 420px;
+  margin-left: 20px;
+  
+}
+
+.chooseus .chooseus-items section img{
+  width: 100%;
+  height: 45%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.chooseus .chooseus-items section .section-item{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+
+.chooseus .chooseus-items section .section-item header{
+  font-size: 21px;
+  color: #FF8C86;
+  text-align: center;
+}
+
+.chooseus .chooseus-items section .section-item p{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+/* frequently asked question */
+
+.faq{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+.faq header{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
+  transition: 0.4s;
+  height: auto;
+  left: 0;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgba(20, 18, 18, 0.774);
+  color: white;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.active:after, .accordion{
+  background-color: white;
+  color: black;
+}
+
+.active:hover{
+  color: rgba(253, 246, 246, 0.849);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width :900px){
+  .faq{
+    width: 90%;
+  }
+}
+
+
+
+/* get in touch section */
+
+.getin{
+  display: block;
+  width: 100%;
+  height: 400px;
+  color: black;
+  margin-top: 50px;
+  background-color: #FEB501;
+  position: relative;
+}
+
+.getin header{
+  font-size: 35px;
+  margin-left: 20px;
+  font-weight: 900;
+  padding-top: 30px;
+  cursor: pointer;
+  z-index: 1;
+
+}
+
+.getin p{
+  display: block;
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-family: serif;
+  padding-right: 50px;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 700;
+
+
+}
+
+
+.getin button{
+  display: block;
+  position: relative;
+  float: right;
+  top: 60%;
+  right: 15%;
+  width: 180px;
+  height: 50px;
+  background-color: #939597;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.getin button a{
+  /* background-color: black; */
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  justify-self: center;
+  font-size: 17px;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  transition: 1s ease;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.getin button a:hover{
+  color: rgb(0, 0, 0);
+}
+
+.getin button a:before{
+  content: "";
+  width: 100%;
+  align-items: center;
+  height: 0px;
+  background-color: #f5df4da2;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 100%;
+  z-index: -1;
+  transition: 0.5s ease;
+  transform: scaleY(0);
+
+}
+
+.getin button a:hover:before{
+  transform: scaleY(1);
+}
+
+
+.getin img{
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
