@@ -855,7 +855,7 @@ main .video-container .caption span{
 
 .banner-1{
   width: 100%;
-  height: 561px;
+  height: 550px;
   position: relative;
 }
 
@@ -941,7 +941,7 @@ main .video-container .caption span{
 @media only screen and (min-width: 1300px){
 
   .banner-1{
-    height: 500px;
+    height: 560px;
   }
 
   .banner-1 h1{
@@ -1344,6 +1344,127 @@ main .video-container .caption span{
     width: 50%;
   }
 
+  
+
+}
+
+@media only screen and (max-width: 800px){
+  .experties .second-half{
+    left: 0;
+    top: 62%;
+    width: 20%;
+  }
+
+  .experties{
+    height: 800px;
+  }
+
+  .experties .first-half {
+    top: -8%;
+    width: 20%;
+  }
+
+  .experties .experties-header-section{
+    width: 100%;
+  }
+
+  .experties .first-half li{
+    padding: 5px;
+  }
+
+  .experties .second-half li{
+    margin-left: -35px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .experties-section {
+    width: 72%;
+    left: 27%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .experties .experties-header-section p{
+    font-size: 14px;
+  }
+
+  .experties .experties-header-section p span{
+    font-size: 25px;
+  }
+
+  .experties li{
+    font-size: 12px;
+  }
+
+  .experties-section .section header {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .experties-section .section p {
+    font-size: 13px;
+    top: 35%;
+  }
+
+  .experties-section {
+    width: 65%;
+    left: 32%;
+  }
+
+  .experties-section .section img{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    width: 100px;
+    height: 90px;
+  }
+
+  .experties .second-half{
+    left: 0;
+    top: 49%;
+  }
+
+  .experties .first-half {
+    top: 0;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  .experties-section .section p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .experties .experties-main-section{
+    top: 22%;
+  }
+
+}
+
+@media only screen and (max-width: 350px){
+
+  .experties .second-half{
+    width: 18%;
+  }
+
+  .experties .first-half {
+    width: 18%;
+  }
+
+  .experties .experties-main-section {
+    top: 19%;
+  }
+
+  .experties-section .section p {
+    font-size: 12px;
+  }
+
+  .experties .experties-header-section p{
+    font-size: 12px;
+  }
 
 }
 
@@ -1417,7 +1538,7 @@ main .video-container .caption span{
   display: block;
   margin: 1% 3%;
   min-height: 390px;
-  width: 44%;
+  width: 45%;
   background-color: white;
   border-radius: 40px;
   color: black;
@@ -1476,7 +1597,6 @@ main .video-container .caption span{
   }
   
 }
-
 
 
 
@@ -1619,6 +1739,8 @@ main .video-container .caption span{
 
 
 
+
+
 /* why choose us section card */
 
 
@@ -1632,6 +1754,7 @@ main .video-container .caption span{
   width: 100%;
   display: block;
   font-size: 51px;
+  margin-bottom: 20px;
   font-weight: bold;
   color: white;
   text-align: center;
@@ -1651,6 +1774,7 @@ main .video-container .caption span{
   min-width: 277px;
   height: 330px;
   margin-bottom: 50px;
+  margin-right: 20px;
   color: white;
   box-shadow: 10px 10px #6133e0;
   background-color: #0A0A0A;
@@ -1659,7 +1783,7 @@ main .video-container .caption span{
 .why-us-card #card img{
   position: absolute;
   width: 40%;
-  top: 0;
+  top: 10px;
   height: 20%;
   left: 50%;
   transform: translateX(-50%);
@@ -1724,9 +1848,276 @@ main .video-container .caption span{
 
   .why-us-card #card img {
     top: 10px;
+    height: 27%;
+  }
+
+  .why-us-card #card p{
+    box-sizing: border-box;
+    top: 45%;
+    padding: 10px;
+  }
+
+  .why-us-card #card h1 {
+    margin: 0;
+    top: 30%;
   }
 
 }
+
+
+
+@media only screen and (max-width:800px){
+  .whychooseusasdigital .whybuiseness-scroll{
+    width: 95%;
+  }
+
+  .whyleft{
+    left: 5px;
+    transform: translateY(15%);
+    padding: 0;
+  }
+  
+  .whyright{
+    right: 5px;
+    transform: translateY(15%);
+    padding: 0;
+  }
+
+  .whybuisenessitem .content h3 {
+    width: 95%;
+    top: 25%;
+    font-size: 15px;
+  }
+
+  .whybuisenessitem .content h1 {
+    font-size: 35px;
+}
+
+
+  .whybuisenessitem .content h1::first-letter{
+    font-size: 45px;
+    color: #6133e0;
+  }
+
+  .banner-second h1{
+    font-size: 35px;
+    top: 24%;
+    line-height: 37px;
+  }
+
+  .banner-second h2{
+    font-size: 16px;
+    width: 22%;
+    top: 45%;
+  }
+
+  .banner-second button {
+    left: 3%;
+    bottom: 19%;
+  }
+
+  .aboutus img {
+    width: 44%;
+    left: 7%;
+  }
+
+  .aboutus .aboutus-section p {
+    font-size: 18px;
+    width: 58%;
+    line-height: 20px;  
+  }
+
+}
+
+@media only screen and (max-width:500px){
+  .whybuisenessitem .content{
+    min-height: 250px;
+    height: 260px;
+    border-radius: 30px;
+  }
+
+  .whybuisenessitem .content h3 {
+    width: 95%;
+    top: 20%;
+    padding-left: 2px;
+    font-size: 10px;
+  }
+
+  .whybuisenessitem .content h1 {
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+
+  .whybuisenessitem .content h1::first-letter{
+    font-size: 22px;
+    
+  }
+
+  .whybuisenessitem .content h3::first-letter{
+    font-size: 12px;
+  }
+
+  .whyright,.whyleft{
+    font-size: 30px;
+    top: 52%;
+  }
+
+  .whychooseusasdigital header {
+    font-size: 24px;
+  }
+
+  .banner-second {
+    height: 400px;
+  }
+
+  .banner-second h1 {
+    font-size: 25px;
+    top: 26%;
+    line-height: 27px;
+    width: 37%;
+  }
+
+  .banner-second h2 {
+    font-size: 12px;
+    width: 30%;
+    top: 42%;
+    left: 1%;
+  }
+
+  .banner-second button {
+    left: 2%;
+    bottom: 30%;
+    font-size: 14px;
+  }
+
+  .banner-second button a{
+    padding: 10px 15px;
+  }
+
+  .aboutus header {
+    width: 50%;
+  }
+
+  .aboutus img {
+    width: 70%;
+    left: -10%;
+  }
+
+  .aboutus .aboutus-section p {
+    font-size: 14px;
+    width: 58%;
+    line-height: 16px;
+  }
+
+  .why-us-card header {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .whybuisenessitem .content h3 {
+    font-size: 9px;
+  }
+
+  .banner-second h1 {
+    font-size: 21px;
+    line-height: 22px;
+  }
+
+  .banner-second h2 {
+    width: 32%;
+    top: 42%;
+    left: 2%;
+  }
+
+  .banner-second {
+    height: 350px;
+  }
+
+  
+  .banner-second button {
+    left: 3%;
+    bottom: 27%;
+    font-size: 10px;
+  }
+
+  .aboutus header {
+    width: 60%;
+  }
+
+  .aboutus img {
+    width: 75%;
+    left: -15%;
+  }
+
+  .why-us-card header {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width:370px){
+  .whybuisenessitem .content h3 {
+    width: 95%;
+    top: 20%;
+    font-size: 8px;
+  }
+
+  .whybuisenessitem .content h1 {
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  .whybuisenessitem .content{
+    margin: 1% 1.5%;
+    width: 47%;
+    min-height: 230px;
+    height: 235px;
+  }
+
+  .whyright,.whyleft{
+    font-size: 15px;
+    top: 55%;
+  }
+
+  .whyleft{
+    left: 1px;
+  }
+  
+  .whyright{
+    right: 1px;
+  }
+
+  .banner-second h1 {
+    font-size: 18px;
+    line-height: 19px;
+    left: 2%;
+  }
+
+  .banner-second h2 {
+    width: 38%;
+    top: 39%;
+    left: 1%;
+    font-size: 11px;
+  }
+  
+  .banner-second button {
+    bottom: 30%;
+  }
+
+  .aboutus header {
+    font-size: 45px;
+  }
+
+  .aboutus .aboutus-section p {
+    font-size: 13px;
+    width: 58%;
+    line-height: 14px;
+  }
+  
+}
+
+
 
 
 /* portfolio section */
@@ -1861,6 +2252,128 @@ main .video-container .caption span{
   color: white;
 }
 
+@media only screen and (max-width: 800px){
+  .portfolio-section .mySlides1 button a {
+    font-size: 10px;
+  }
+
+
+  .portfolio-section .prevs {
+    left: 64%;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .portfolio-section .mySlides1 .text{
+    font-size: 24px;
+    left: 42%;
+    font-weight: 600;
+    width: 55%;
+  }
+
+  .portfolio-section .mySlides1 p {
+    top: 15%;
+    text-align: justify;
+  }
+
+  .portfolio-section .mySlides1 button {
+    top: 70%;
+    left: 45%;
+    padding: 5px 1px;
+  }
+
+  .portfolio-section .mySlides1 button a {
+    font-size: 9px;
+    padding: 5px 6px;
+  }
+
+  .portfolio-section .prevs {
+    left: 60%;
+    top: 85%;
+    padding: 10px;
+  }
+  
+  
+  .portfolio-section .nexts{
+    right: 22%;
+    top: 85%;
+    padding: 10px;
+  }
+
+  .portfolio-section .mySlides1 .numbertext {
+    left: 88%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .portfolio-section header {
+    font-size: 35px;
+  }
+
+  .portfolio-section .mySlides1 img {
+    height: 55%;
+  }
+
+  .portfolio-section .mySlides1 .text {
+    font-size: 20px;
+  }
+
+  .portfolio-section .mySlides1 p {
+    top: 13%;
+    font-size: 14px;
+  }
+
+  .portfolio-section .mySlides1 button.portfolio-contact {
+    left: 35%;
+  }
+
+  .portfolio-section .mySlides1 button {
+    left: 4%;
+  }
+
+  .portfolio-section .prevs {
+    left: 56%;
+    top: 66%;
+  }
+  
+  
+  .portfolio-section .nexts{
+    right: 28%;
+    top: 66%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .portfolio-section header {
+    font-size: 30px;
+  }
+
+  .portfolio-section .mySlides1 .text {
+    font-size: 18px;
+}
+
+  .portfolio-section .mySlides1 button {
+    top: 80%;
+  }
+
+  .portfolio-section .nexts{
+    right: 27%;
+    top: 72%;
+    padding: 7px;
+  }
+
+  .portfolio-section .prevs {
+    left: 56%;
+    top: 72%;
+    padding: 7px;
+  }
+
+  .portfolio-section .mySlides1 button.portfolio-contact {
+    left: 40%;
+    top: 80%;
+  }
+}
+
 
 /* third banner section */
 
@@ -1907,6 +2420,8 @@ main .video-container .caption span{
   text-shadow: 1px 1px black;
   color: white;
 }
+
+
 
 
 /* frequently asked question */
@@ -1995,13 +2510,69 @@ main .video-container .caption span{
   }
 }
 
+@media only screen and (max-width: 500px){
+  .banner-3{
+    margin: 0;
+    width: 100%;
+    height: 480px;
+    margin-top: 20px;
+    
+  }
+
+  .banner-3 p {
+    top: 27%;
+    font-size: 30px;
+  }
+
+  .banner-3 a {
+    left: 65%;
+  }
+
+  .faq header{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .banner-3{
+    height: 420px;
+  }
+
+  .banner-3 p {
+    top: 28%;
+    font-size: 24px;
+  }
+
+  .banner-3 a {
+    left: 60%;
+  }
+
+  .faq header{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .banner-3 a {
+    left: 60%;
+    font-size: 12px;
+  }
+
+  .banner-3{
+    height: 390px;
+  }
+
+  .faq header{
+    font-size: 25px;
+  }
+
+}
+
 /* link-image-button */
 
 .linkimgbutton{
   width: 80%;
   margin: 20px auto;
-  display: block;
-  height: 450px;
 }
 
 .linkimgbutton header{
@@ -2010,42 +2581,43 @@ main .video-container .caption span{
   text-align: center;
   margin-bottom: 10px;
 }
+
+.otherbuisness-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .imglink{
   width: 50%;
+  min-width: 300px;
   height: 300px;
-  float: left;
-  z-index: 0;
   margin: 50px auto;
 }
 .imglink img{
   display: block;
   width: 70%;
-  justify-content: center;
-  box-shadow: 5px 5px #E8D636;
+  box-shadow: 10px 10px #E8D636;
   margin-left: auto;
   margin-right: auto;
   transition: transform .2s;
-  z-index: 0;
   margin-bottom: -50px;
 }
 
 
 .imglink img:hover{
   transform: scale(1.10);
-  z-index: 0;
 }
 
 .imglink#second {
   width: 50%;
-  float: right;
   align-items: center;
 }
 
 .imglink#second img{
   display: block;
   width: 70%;
-  justify-content: center;
-  box-shadow: 5px 5px #e83636;
+  box-shadow: 10px 10px #e83636;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2106,11 +2678,9 @@ main .video-container .caption span{
     text-align: center;
     font-size: 11px;
     padding: 10px;
-    width: 100px;
     transition: all 0.5s;
     cursor: pointer;
     margin-top: -150px;
-    margin-left: 80px;
     overflow: hidden;
     position: relative;
   }
@@ -2121,6 +2691,46 @@ main .video-container .caption span{
     opacity: 0;
     right: -10px;
     transition: 0.5s;
+  }
+
+}
+
+@media only screen and (max-width:800px){
+  .linkimgbutton{
+    width: 100%;
+  }
+
+  .imglink{
+    margin: 30px auto;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .imglink img{
+    width: 100%;
+  }
+
+  .imglink#second img{
+    width: 100%;
+  }
+
+  .imglink button {
+    width: 150px;
+  }
+
+  .linkimgbutton header {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .linkimgbutton header {
+    font-size: 35px;
+  }
+
+  .imglink{
+    min-width: 250px;
+    height: 250px;
   }
 
 }
@@ -2240,17 +2850,15 @@ textarea {
 
   
   footer{
-   position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
+   color: white;
   }
 
   footer .footer-content{
     position: relative;
     text-align: left;
-    display: block;
-    justify-content: space-between;
     background-color: #01010e;
   }
 
@@ -2259,13 +2867,16 @@ textarea {
   }
 
   .col{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .col .col-content{
     display: inline-grid;
     width: 24%;
-    margin-top: 0px;
+    min-width: 180px;
+    margin-top: 10px;
     justify-content: space-evenly;
   }
 
@@ -2279,7 +2890,6 @@ textarea {
 
   .sub-footer{
     margin-left: -22px;
-    color: white;
   }
 
   .sub-footer#follow {
@@ -2310,7 +2920,7 @@ textarea {
   }
 
   footer .footer-contain header{
-    color: white;
+   
     font-weight: 300;
     font-size: 20px;
   }
@@ -2332,10 +2942,6 @@ textarea {
   }
 
   @media only screen and (max-width: 600px) {
-    footer .footer-content{
-      margin-top: 20px;
-      background-color: rgba(255, 255, 255, 0.562);
-    }
 
     footer .footer-content h2{
       padding: 0;
@@ -2344,7 +2950,6 @@ textarea {
 
     .col .col-content#foots{
       font-size: 15px;
-      width: 300px;
       padding: 0;
       margin-left: 5px;
       left: 0;
@@ -2357,7 +2962,6 @@ textarea {
     }
     .sub-footer#follow{
       font-size: 15px;
-      width: 200px;
       margin-left: 5px;
       display: block;
     }
