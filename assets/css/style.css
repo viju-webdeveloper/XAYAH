@@ -3004,7 +3004,7 @@ textarea {
 
     .sub-footer#follow{
       font-size: 14px;
-      margin-left: -20px;
+      margin-left: -30px;
     }
 
     footer .footer-contain header {
@@ -3012,7 +3012,7 @@ textarea {
     }
     
     .col .col-content{
-    min-width: 160px;
+    min-width: 180px;
     margin-top: 10px;
     justify-content: space-evenly;
   }
