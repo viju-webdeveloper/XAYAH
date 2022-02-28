@@ -2354,14 +2354,14 @@ main .video-container .caption span{
   }
 
   .portfolio-section .prevs {
-    left: 56%;
-    top: 66%;
+    left: 73%;
+    top: 75%;
   }
   
   
   .portfolio-section .nexts{
-    right: 28%;
-    top: 66%;
+    right: 7%;
+    top: 75%;
   }
 }
 
@@ -3009,6 +3009,12 @@ textarea {
     footer .footer-contain header {
       margin-left: 25px;
     }
+    
+    .col .col-content{
+    min-width: 250px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+  }
   }
 
 
