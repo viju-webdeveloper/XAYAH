@@ -2853,7 +2853,8 @@ textarea {
   }
   form{
     padding: 10px;
-    margin: 2px;
+    margin: 1px;
+    margin-bottom: 20px;
   }
 }
 
