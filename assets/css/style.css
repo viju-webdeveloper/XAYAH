@@ -3001,8 +3001,12 @@ textarea {
       font-size: 14px;
       margin-left: 10px;
     }
+    
+    #follow{
+      margin-left: -15px;
+    }
 
-    .sub-footer#follow{
+    .footer-contain#footer-contain-id>#follow{
       font-size: 14px;
       margin-left: -30px;
     }
