@@ -7,7 +7,7 @@ body {
     width: 100vw; 
     height: 100%;
     max-width: 1500px;
-    min-width: 370px;
+    min-width: 374px;
     margin: auto;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #1A1A1A;
@@ -3003,7 +3003,7 @@ textarea {
 
     .sub-footer#follow{
       font-size: 14px;
-      margin-left: 10px;
+      margin-left: -15px;
     }
 
     footer .footer-contain header {
@@ -3011,7 +3011,7 @@ textarea {
     }
     
     .col .col-content{
-    min-width: 250px;
+    min-width: 170px;
     margin-top: 10px;
     justify-content: space-evenly;
   }
