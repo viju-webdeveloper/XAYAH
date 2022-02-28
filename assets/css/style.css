@@ -345,7 +345,7 @@ nav .menu-content li:last-child>a :hover{
   /* mobile-navigation-menu */
   .sidenav {
     height: 100%;
-    width: 50vw;
+    width: 0px;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -556,9 +556,6 @@ main .video-container .caption span{
   top: 0;
   align-items: center;
   
-    
-
-
 }
 
 .roundcontainer .caption-c h2{
@@ -1003,8 +1000,6 @@ main .video-container .caption span{
     font-size: 14px;
     
   }
-
-
 }
 
 
@@ -1770,9 +1765,11 @@ main .video-container .caption span{
 
 .why-us-card #card{
   position: relative;
-  width: 27%;
-  min-width: 277px;
-  height: 330px;
+  width: 254px;
+  box-sizing: border-box;
+  min-width: 254px;
+  padding: 7px;
+  height: 300px;
   margin-bottom: 50px;
   margin-right: 20px;
   color: white;
@@ -1782,9 +1779,9 @@ main .video-container .caption span{
 
 .why-us-card #card img{
   position: absolute;
-  width: 40%;
+  width: 80px;
   top: 10px;
-  height: 20%;
+  height: 80px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -1794,20 +1791,38 @@ main .video-container .caption span{
   display: block;
   text-align: center;
   width: 100%;
-  font-size: 28px;
+  font-size: 21px;
   height: 60px;
   font-weight: bold;
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 0;
 }
 
 .why-us-card #card p{
   display: block;
   text-align: center;
-  width: 100%;
+  font-size: 12px;
+  width: 240px;
   position: absolute;
-  top: 43%;
+  top: 48%;
+}
+
+
+@media only screen and (min-width:1100px) {
+
+  .why-us-card #card{
+    margin-bottom: 60px;
+    margin-right: 40px;
+  }
+
+}
+
+@media only screen and (min-width:1160px) {
+  .why-us-card .card-section {
+    width: 92%;
+    margin-left: 4%;
+  }
 }
 
 
@@ -1838,8 +1853,8 @@ main .video-container .caption span{
   }
 
   .why-us-card .card-section {
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .why-us-card #card {
@@ -1862,7 +1877,13 @@ main .video-container .caption span{
     top: 30%;
   }
 
+  .why-us-card #card{
+    margin-bottom: 100px;
+    margin-right: 50px;
+  }
+
 }
+
 
 
 
@@ -2951,7 +2972,7 @@ textarea {
     .col .col-content#foots{
       font-size: 15px;
       padding: 0;
-      margin-left: 5px;
+      margin-left: 20px;
       left: 0;
     }
     .col .col-content#focont{
@@ -2962,7 +2983,7 @@ textarea {
     }
     .sub-footer#follow{
       font-size: 15px;
-      margin-left: 5px;
+      margin-left: 20px;
       display: block;
     }
 
@@ -2973,6 +2994,21 @@ textarea {
 
   }
 
+  @media only screen and (max-width: 400px) {
+    .col .col-content#foots{
+      font-size: 14px;
+      margin-left: 10px;
+    }
+
+    .sub-footer#follow{
+      font-size: 14px;
+      margin-left: 10px;
+    }
+
+    footer .footer-contain header {
+      margin-left: 25px;
+    }
+  }
 
 
 
